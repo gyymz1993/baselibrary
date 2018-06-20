@@ -101,9 +101,9 @@ public abstract class ABaseActivity extends BaseActivity implements NetworkState
         //设置填充activity_base布局
         super.setContentView(view);
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            view.setFitsSystemWindows(true);
-        }
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+//            view.setFitsSystemWindows(true);
+//        }
         //加载子类Activity的布局
         initDefaultView(layoutResID);
     }
