@@ -14,7 +14,7 @@ public class MainActivity extends ABaseActivity {
 
     @Override
     protected void initPresenter() {
-
+        //
     }
 
     @Override
