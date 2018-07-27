@@ -44,7 +44,7 @@ public class MainActivity extends ABaseActivity {
 
     @Override
     protected void initView() {
-
+        showProgressDialogWithText("测试测试");
     }
 
 
